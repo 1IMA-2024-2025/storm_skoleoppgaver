@@ -1,0 +1,17 @@
+100vh (vertical height) is 100% of the screen and should be used in .container to align.
+
+this makes a class centered:
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+1. makes it a flex object
+2. centers horizontal
+3. centers vertical
+
+body has a margin by defult and should be removed via this:
+
+body {
+    margin: 0px;
+}
